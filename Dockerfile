@@ -1,7 +1,7 @@
 FROM Casperteam/puse:alpine
 
 #clonning repo 
-RUN git clone https://github.com/Casperbot/puse.git /root/userbot
+RUN git clone https://github.com/Casperteam/puse.git/root/userbot
 #working directory 
 WORKDIR /root/userbot
 
